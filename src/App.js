@@ -7,6 +7,7 @@ import DataTable from "./components/dataTable/DataTable";
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import data from './Data/test.json';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 const Auth = new AuthService();
 
