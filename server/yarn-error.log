@@ -1,0 +1,50 @@
+Arguments: 
+  /Users/denpc/.nvm/versions/node/v6.11.4/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/denpc/.nvm/versions/node/v6.11.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.11.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "jwtauth",
+    "version": "1.0.0",
+    "main": "app.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.17.1",
+      "express": "^4.15.2",
+      "express-jwt": "^5.3.0",
+      "jsonwebtoken": "^7.3.0"
+    },
+    "devDependencies": {
+      "eslint": "^3.19.0",
+      "eslint-plugin-react": "^6.10.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "/Users/denpc/Library/Caches/Yarn/v1/npm-lodash.isboolean-3.0.3-6c2e171db2a257cd96802fd43b01b20d5f5870f6"
+      at MessageError.Error (native)
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:40048:15
+      at next (native)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13

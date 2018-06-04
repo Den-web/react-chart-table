@@ -3,11 +3,15 @@
 First install all the dependencies
 ```sh
 npm install
+npm start 
 ```
 
-To start the app type
+To start sever app in new window terminal
 ```sh
-npm start
+cd server/
+
+npm install
+node app
 ```
 
 
