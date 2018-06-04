@@ -1,0 +1,31 @@
+{
+  "name": "table-content",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.1.0",
+    "@material-ui/icons": "^1.1.0",
+    "bootstrap": "^4.1.1",
+    "d3": "^3.5.17",
+    "d3-react-squared": "^0.3.6",
+    "jquery": "^3.3.1",
+    "jwt-decode": "^2.2.0",
+    "mdbootstrap": "^4.5.3",
+    "queue": "^4.4.2",
+    "react": "^16.3.0",
+    "react-bootstrap-table": "^4.3.1",
+    "react-d3-basic": "^1.6.11",
+    "react-dom": "^16.3.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.12",
+    "recharts": "^1.0.0-beta.10",
+    "styled-components": "^3.3.0",
+    "topojson": "^3.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

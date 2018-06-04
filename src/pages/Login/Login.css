@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import '/node_modules/bootstrap/dist/css/bootstrap.css';
+@import '/node_modules/mdbootstrap/css/mdb.min.css';
+
+input{
+    background-color: #ffffff!important;
+}
+
+.center{
+    font-family: 'Roboto ', sans-serif;
+    background-color: transparent;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-text{
+    font-family: 'Roboto ', sans-serif;
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.backColor{
+    background-color: #3748AC;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top:0;
+    left: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
+}
+
+.card{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    padding: 7rem;
+    top: 5%;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.card > form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card p{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.card h1{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+.card h5{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+
+.form-item{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-bottom: 2rem;
+    height: 30px;
+    width: 16rem;
+    border: 1px solid grey;
+}
+
+.MuiButton-raisedPrimary-35{
+    margin-top: 20px;
+}
